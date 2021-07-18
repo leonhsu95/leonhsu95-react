@@ -1,10 +1,10 @@
-const burger = document.querySelector(".burger");
+const burger = document.getElementById("burger");
 const nav = document.querySelector(".nav-links");
 const navLinks = document.querySelectorAll(".nav-links li");
 
-function navSlide() {
+async function navSlide() {
         
-    burger.addEventListener("click", () => {
+    await burger.addEventListener("click", () => {
         //Toggle Nav
         nav.classList.toggle("nav-active");
         
@@ -24,11 +24,6 @@ function navSlide() {
     });
     
 }
-
-function pageReload(){
-    nav.classList.toggle("nav-active");
-}
-
 
 navSlide();
 
