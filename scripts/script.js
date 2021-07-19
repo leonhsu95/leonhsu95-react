@@ -2,9 +2,9 @@ const burger = document.getElementById("burger");
 const nav = document.querySelector(".nav-links");
 const navLinks = document.querySelectorAll(".nav-links li");
 
-async function navSlide() {
+function navSlide() {
         
-    await burger.addEventListener("click", () => {
+    burger.addEventListener("click", () => {
         //Toggle Nav
         nav.classList.toggle("nav-active");
         
