@@ -80,11 +80,11 @@ header {
     transition: var(--fade);
 }
 
-.burger {
+#burger {
     display: none;
 }
 
-.burger div {
+#burger div {
     width: 25px;
     height: 3px;
     background-color: #5e6472;
@@ -594,7 +594,7 @@ span.error-message{
         padding: 20px 0;
     }
     
-    .burger {
+    #burger {
         display: block;
         cursor: pointer;
         z-index: 2;
@@ -685,7 +685,7 @@ span.error-message{
 	  border: none;
       text-align: center;
       font-size: 1em;
-      margin: 20px auto 0 auto;
+      margin: 10px auto 10px auto;
       width: 100%;
     }
 
@@ -1144,7 +1144,7 @@ span.error-message{
         display: inline-block;
     }
     
-    .burger {
+    #burger {
         display: block;
         cursor: pointer;
         z-index: 4;
