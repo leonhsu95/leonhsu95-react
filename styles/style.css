@@ -685,7 +685,7 @@ span.error-message{
 	  border: none;
       text-align: center;
       font-size: 1em;
-      margin: 10px auto 10px auto;
+      margin: 10px auto;
       width: 100%;
     }
 
@@ -703,7 +703,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 10px auto 10px auto;
+        margin: 10px auto;
         text-decoration: none;
     }
 
@@ -1279,7 +1279,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 20px auto 0 auto;
+        margin: 10px auto;
         text-decoration: none;
     }
 
@@ -1296,7 +1296,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 20px auto 0 auto;
+        margin: 10px auto;
         text-decoration: none;
     }
 
@@ -1515,7 +1515,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 20px auto 0 auto;
+        margin: 20px 10px;
         text-decoration: none;
     }
 
@@ -1532,7 +1532,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 20px auto 0 auto;
+        margin: 20px 10px;
         text-decoration: none;
     }
 
@@ -1549,7 +1549,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 20px auto 0 auto;
+        margin: 20px 10px;
         opacity: 0.8;
         text-decoration: none;
     }
@@ -1557,8 +1557,6 @@ span.error-message{
     #creativity-banner-scroll
 	{
 	 background-image:url('../assets/designs/leon-banner.png');
-	 /* min-height: 350px;
-     height: 400px; */
      height: 500px;
 
 	}
