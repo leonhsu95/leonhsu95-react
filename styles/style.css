@@ -80,11 +80,11 @@ header {
     transition: var(--fade);
 }
 
-#burger {
+.burger {
     display: none;
 }
 
-#burger div {
+.burger div {
     width: 25px;
     height: 3px;
     background-color: #5e6472;
@@ -100,10 +100,6 @@ header {
 
 
 /*-BANNER-*/
-/* #banner{
-    padding-top: 40px;
-    background-color: aliceblue;  
-} */
 
 .banner-container{
     display: flex;
@@ -111,8 +107,8 @@ header {
 }
 
 .banner-left{
-  width: 50%;  
-  display: flex;
+    width: 50%;  
+    display: flex;
 }
 
 .banner-content {
@@ -201,12 +197,12 @@ header {
     color: #e8d44d;
 }
 
-.fa-php{
-    color: #858eb8;
+.fa-node{
+    color: #6da75d;
 }
 
-.fa-bootstrap{
-    color: #533b78;
+.fa-php{
+    color: #858eb8;
 }
 
 .fa-wordpress{
@@ -420,6 +416,7 @@ header {
 	border: none;
     font-size: 1em;
     letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 #submit:hover{
@@ -427,18 +424,18 @@ header {
     transition: var(--fade);
 }
 
-.formfields
+.form-fields
 {
 	display: inline-block;
     margin-bottom: 10px;
     width: 50%;
 }
 
-.formcomment{
+.form-comment{
     width: 100%;
 }
 
-.formsubmit{
+.form-submit{
     margin: auto;
 }
 
@@ -451,8 +448,12 @@ header {
     border: none;
 }
 
-.formcomment{
+.form-comment{
     margin-top: 20px;
+}
+
+#comment{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 /*-FOOTER-*/
@@ -505,6 +506,34 @@ footer i{
     transform: rotate(90deg);
 }
 
+/* VALIDATION */
+.form-fields .error-message{
+    display: inline-block;
+    margin: 10px;
+    right: 10px;
+    position: relative;
+
+}
+
+span.error-message{
+    display: inline-block;
+    margin: 10px;
+    right: 10px;
+
+}
+
+.form-comment .error-message{
+    position: relative;
+    bottom: 20px;
+}
+
+.message-success{
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    font-size: 1.3em;
+    color: antiquewhite;
+}
 
 
 /*------------------------------MOBILE--------------------------------*/
@@ -565,7 +594,7 @@ footer i{
         padding: 20px 0;
     }
     
-    #burger {
+    .burger {
         display: block;
         cursor: pointer;
         z-index: 2;
@@ -947,7 +976,7 @@ footer i{
          margin-bottom: 20px;
      }
      
-     .formfields
+     .form-fields
      {
          display: inline-block;
          margin-bottom: 10px;
@@ -1022,7 +1051,7 @@ footer i{
         clear: both;
      }
      
-    .formcomment{
+    .form-comment{
         margin-top: 20px;
     }
 
@@ -1052,6 +1081,18 @@ footer i{
         font-family: "Lato", sans-serif;
         font-size: 0.9em;
 
+    }
+
+    /* VALIDATION */
+    .error-message{
+        display: inline-block;
+        margin: 10px;
+
+    }
+
+    .form-comment .error-message{
+        position: relative;
+        bottom: 20px;
     }
 
 }
@@ -1103,7 +1144,7 @@ footer i{
         display: inline-block;
     }
     
-    #burger {
+    .burger {
         display: block;
         cursor: pointer;
         z-index: 4;
@@ -1336,6 +1377,19 @@ footer i{
         width: 45%;
         margin: 10px;
     }
+
+     /* VALIDATION */
+     .error-message{
+        display: inline-block;
+        margin: 10px;
+
+    }
+
+    .form-comment .error-message{
+        position: relative;
+        bottom: 20px;
+    }
+
 
 }
 
@@ -1755,7 +1809,7 @@ footer i{
       margin-bottom: 20px;
     }
 
-     .formfields
+     .form-fields
      {
       display: inline-block;
       margin-bottom: 10px;
@@ -1827,7 +1881,7 @@ footer i{
         clear: both;
      }
 
-    .formcomment{
+    .form-comment{
         margin-top: 20px;
     }
 
@@ -1858,6 +1912,20 @@ footer i{
         font-size: 0.9em;
 
     }
+
+     /* VALIDATION */
+     .form-fields .error-message{
+        display: inline-block;
+        margin: 10px;
+        right: 10px;
+
+    }
+
+    .form-comment .error-message{
+        position: relative;
+        bottom: 20px;
+    }
+
 }
 
 
