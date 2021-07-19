@@ -703,7 +703,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 20px auto 0 auto;
+        margin: 10px auto 10px auto;
         text-decoration: none;
     }
 
@@ -720,7 +720,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 20px auto 0 auto;
+        margin: 10px auto 10px auto;
         text-decoration: none;
     }
 
