@@ -26,9 +26,9 @@
 
 /*-NAVIGATION BAR-*/
 
-header {
+/* header {
     z-index: 2;
-}
+} */
 
 
 #logo h2{
@@ -544,7 +544,7 @@ span.error-message{
         width: 100%;
     }
 
-    header{
+    /* header{
         border: 1px white solid;
         box-shadow: var(--shadow);
         height: 5em;
@@ -552,7 +552,7 @@ span.error-message{
 
     #header-nav{
         z-index: 2;
-    }
+    } */
 
     #logo-design{
         position: relative;
@@ -737,7 +737,7 @@ span.error-message{
         border: none;
         text-align: center;
         font-size: 1em;
-        margin: 20px auto 0 auto;
+        margin: 10px auto;
         opacity: 0.8;
         text-decoration: none;
     }
@@ -1101,11 +1101,11 @@ span.error-message{
 
 @media screen and (min-width: 768px) and (max-width: 1399px) {
     
-    #header-nav{
+    /* #header-nav{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
+    } */
     
     /*-NAVIGATION BAR-*/
    
@@ -1400,7 +1400,7 @@ span.error-message{
 
 @media screen and (min-width: 1400px) {
     
-    header{
+    /* header{
         border: 1px white solid;
         box-shadow: var(--shadow);
         padding-bottom: 2px;
@@ -1419,7 +1419,7 @@ span.error-message{
     #header-nav a{
         padding: 10px;
         
-    }
+    } */
     
     #logo-design{
         width: auto;
