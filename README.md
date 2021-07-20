@@ -55,7 +55,8 @@ This work may not be reprinted, reproduced or reused under any circumstances.
 
 ## Improvements
 - The site can be more dynamic in animation and can take inspiration from awwwards.com websites.
-- Contact Form may have potential error on Herkou, will have to test further to pass OAuth Credentials.
+- Contact Form will not work on GH pages as it doesn't not accept server side functions and methods.
+
 
 ## Tests
 
