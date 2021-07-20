@@ -85,4 +85,43 @@ timeline
         opacity: 100, 
         ease: "power2.inOut",
         
-    }, 6);
+    }, 6)
+    .from("#project7", { 
+        y: "-10%",
+        opacity: 0, 
+    })
+    .to("#project7",{
+        opacity: 100, 
+        ease: "power2.inOut",
+        
+    }, 7)
+    .from("#project8", { 
+        y: "-10%",
+        opacity: 0, 
+    })
+    .to("#project8",{
+        opacity: 100, 
+        ease: "power2.inOut",
+        
+    }, 8)
+
+    .from("#project9", { 
+        y: "-10%",
+        opacity: 0, 
+    })
+    .to("#project9",{
+        opacity: 100, 
+        ease: "power2.inOut",
+        
+    }, 9)
+
+    .from("#project10", { 
+        y: "-10%",
+        opacity: 0, 
+    })
+    .to("#project10",{
+        opacity: 100, 
+        ease: "power2.inOut",
+        
+    }, 10);
+
