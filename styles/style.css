@@ -509,15 +509,14 @@ footer i{
 /* VALIDATION */
 .form-fields .error-message{
     display: inline-block;
-    margin: 10px;
-    right: 10px;
+    margin: 10px 0;
     position: relative;
 
 }
 
 span.error-message{
     display: inline-block;
-    margin: 10px;
+    margin: 10px 0;
     right: 10px;
 
 }
@@ -852,7 +851,7 @@ span.error-message{
     }
 
     #works-square{
-        margin: 0 10px;
+        margin: 10px 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1086,13 +1085,19 @@ span.error-message{
     /* VALIDATION */
     .error-message{
         display: inline-block;
-        margin: 10px;
+        margin: 10px 0;
 
     }
 
     .form-comment .error-message{
         position: relative;
         bottom: 20px;
+    }
+
+    .error-message{
+        position: relative;
+        top: -12px;
+        font-size: 1.3em;
     }
 
 }
@@ -1381,13 +1386,19 @@ span.error-message{
      /* VALIDATION */
      .error-message{
         display: inline-block;
-        margin: 10px;
+        margin: 10px 0;
 
     }
 
     .form-comment .error-message{
         position: relative;
         bottom: 20px;
+    }
+
+    .error-message{
+        position: relative;
+        top: -12px;
+        font-size: 1.3em;
     }
 
 
@@ -1690,7 +1701,7 @@ span.error-message{
     }
 
     #works-square{
-        margin: 0 10px;
+        margin: 10px 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1918,14 +1929,20 @@ span.error-message{
      /* VALIDATION */
      .form-fields .error-message{
         display: inline-block;
-        margin: 10px;
-        right: 10px;
+        margin: 10px 0;
+        
 
     }
 
     .form-comment .error-message{
         position: relative;
         bottom: 20px;
+    }
+
+    .error-message{
+        position: relative;
+        top: -12px;
+        font-size: 1.3em;
     }
 
 }
