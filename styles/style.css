@@ -1411,12 +1411,12 @@ span.error-message{
 
 @media screen and (min-width: 1400px) {
     
-    /* header{
+    header{
         border: 1px white solid;
         box-shadow: var(--shadow);
         padding-bottom: 2px;
     }
-
+/* 
     #header-nav{
         top: 0;
         width: 100%;
