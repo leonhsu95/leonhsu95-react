@@ -1,6 +1,6 @@
 # Leon Hsu React Portfolio
 
-You can view my React Portfolio here: [Leon Hsu React Portfolio](https://leonhsu95.github.io/leonhsu95-react)
+You can view my React Portfolio here: [Leon Hsu React Portfolio](https://leonhsu95.github.io/leonhsu95-react/)
 
 ## Table of Contents
 
